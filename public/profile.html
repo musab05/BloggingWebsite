@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./css/profile.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Blog VIsta : User Profile</title>
+</head>
+
+<body>
+  <div class="header">
+    <a href="/">
+      <div class="logo">Blog Vista</div>
+    </a>
+    <div class="hamburger">
+      <button><img src="./img/hamburger.svg" alt="" /></button>
+    </div>
+    <div class="hamburgernav">
+      <div class="sidenav">
+        <div class="cross"><img src="./img/cross.svg" alt="" /></div>
+        <ul>
+          <li>
+            <a href="/"><button><img src="./img/home.svg" alt="" />Home</button></a>
+          </li>
+          <li>
+            <a href="search.html"><button><img src="./img/search.svg" alt="" />Search</button></a>
+          </li>
+          <li>
+            <button>
+              <img src="./img/contactus.svg" alt="" />Contact Us
+            </button>
+          </li>
+          <li>
+            <button onclick="checkLoginforEdit()">
+              <img src="./img/edit.svg" alt="" />Editor
+            </button>
+          </li>
+          <li>
+            <button onclick="checkLogin()">
+              <img src="./img/user.svg" alt="" />User
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="navbar">
+      <ul>
+        <li>
+          <a href="/"><button><img src="./img/home.svg" alt="" /></button></a>
+        </li>
+        <li>
+          <a href="search.html"><button><img src="./img/search.svg" alt="" /></button></a>
+        </li>
+        <li>
+          <button><img src="./img/contactus.svg" alt="" /></button>
+        </li>
+        <li>
+          <button onclick="checkLoginforEdit()">
+            <img src="./img/edit.svg" alt="" />
+          </button>
+        </li>
+        <li>
+          <button onclick="checkLogin()">
+            <img src="./img/user.svg" alt="" />
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="util">
+      <a class="create" href="editor.html"><button>Create</button></a>
+      <a class="log" href="/profile/logout"><button>Logout</button></a>
+    </div>
+    <h1>User Profile</h1>
+
+    <h2>User Data</h2>
+    <div id="userData"></div>
+
+    <h2>User Posts</h2>
+    <div id="userPosts"></div>
+  </div>
+
+  <script src="./js/profile.js"></script>
+</body>
+
+</html>

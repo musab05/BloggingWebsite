@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    /* position: relative; */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.util{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+.create{
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+
+.create button{
+    background-color: #1f2029;
+    color: #ffeba7;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.log{
+    padding: 5px 10px;
+  margin: 5px 0;
+}
+.log button{
+    background-color: #1f2029;
+    color: #ffeba7;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h1,
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.email {
+    color: #666;
+    font-weight: bold;
+}
+
+.post {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.post-title {
+    background-color: #1f2029;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ffeba7;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.blog-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #e60000;
+}

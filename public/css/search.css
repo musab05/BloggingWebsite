@@ -1,0 +1,12 @@
+.search-bar{
+    display: flex;
+}
+
+.searchin{
+    width: 80%;
+}
+
+.click{
+    margin-top: 10px;
+    width: 20%;
+}

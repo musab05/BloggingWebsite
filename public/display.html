@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/display.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Blog Vista : Display</title>
+    <style>
+      /* Add your CSS styles here */
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a href="/"><div class="logo">Blog Vista</div></a>
+      <div class="hamburger">
+        <button><img src="./img/hamburger.svg" alt="" /></button>
+      </div>
+      <div class="hamburgernav">
+        <div class="sidenav">
+          <div class="cross"><img src="./img/cross.svg" alt="" /></div>
+          <ul>
+            <li>
+              <a href="/"
+                ><button><img src="./img/home.svg" alt="" />Home</button></a
+              >
+            </li>
+            <li>
+              <a href="search.html"
+                ><button><img src="./img/search.svg" alt="" />Search</button></a
+              >
+            </li>
+            <li>
+              <button>
+                <img src="./img/contactus.svg" alt="" />Contact Us
+              </button>
+            </li>
+            <li>
+              <button onclick="checkLoginforEdit()">
+                <img src="./img/edit.svg" alt="" />Editor
+              </button>
+            </li>
+            <li>
+              <button onclick="checkLogin()">
+                <img src="./img/user.svg" alt="" />User
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="/"
+              ><button><img src="./img/home.svg" alt="" /></button
+            ></a>
+          </li>
+          <li>
+            <a href="search.html"
+              ><button><img src="./img/search.svg" alt="" /></button
+            ></a>
+          </li>
+          <li>
+            <button><img src="./img/contactus.svg" alt="" /></button>
+          </li>
+          <li>
+            <button onclick="checkLoginforEdit()">
+              <img src="./img/edit.svg" alt="" />
+            </button>
+          </li>
+          <li>
+            <button onclick="checkLogin()">
+              <img src="./img/user.svg" alt="" />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="post-container">
+      <h1 id="post-title"></h1>
+      <img id="post-image" src="" alt="Post Image" />
+      <p id="post-content"></p>
+    </div>
+
+    <script src="./js/display.js"></script>
+  </body>
+</html>

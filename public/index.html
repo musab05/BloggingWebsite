@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>BlogVista</title>
+  </head>
+  <body>
+    <div class="header">
+      <a href="/"><div class="logo">Blog Vista</div></a>
+      <div class="hamburger">
+        <button><img src="./img/hamburger.svg" alt="" /></button>
+      </div>
+      <div class="hamburgernav">
+        <div class="sidenav">
+          <div class="cross"><img src="./img/cross.svg" alt="" /></div>
+          <ul>
+            <li>
+              <a href="/"
+                ><button><img src="./img/home.svg" alt="" />Home</button></a
+              >
+            </li>
+            <li>
+              <a href="search.html"
+                ><button><img src="./img/search.svg" alt="" />Search</button></a
+              >
+            </li>
+            <li>
+              <button>
+                <img src="./img/contactus.svg" alt="" />Contact Us
+              </button>
+            </li>
+            <li>
+              <button onclick="checkLoginforEdit()">
+                <img src="./img/edit.svg" alt="" />Editor
+              </button>
+            </li>
+            <li>
+              <button onclick="checkLogin()">
+                <img src="./img/user.svg" alt="" />User
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li>
+            <a href="/"
+              ><button><img src="./img/home.svg" alt="" /></button
+            ></a>
+          </li>
+          <li>
+            <a href="search.html"
+              ><button><img src="./img/search.svg" alt="" /></button
+            ></a>
+          </li>
+          <li>
+            <button><img src="./img/contactus.svg" alt="" /></button>
+          </li>
+          <li>
+            <button onclick="checkLoginforEdit()">
+              <img src="./img/edit.svg" alt="" />
+            </button>
+          </li>
+          <li>
+            <button onclick="checkLogin()">
+              <img src="./img/user.svg" alt="" />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="blogs-section">
+      <!-- Posts will be dynamically added here -->
+    </section>
+
+    <div class="footer">
+      <p>&copy; 2024 BlogVista. All rights reserved.</p>
+    </div>
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
