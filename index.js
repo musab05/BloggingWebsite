@@ -52,7 +52,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(
   session({
-    secret: "ttn4FE5TlUCAIJZmF8gpbIJrMV",
+    secret: "secrete key",
     resave: false,
     saveUninitialized: true,
   }),
